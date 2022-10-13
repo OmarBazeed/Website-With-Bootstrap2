@@ -1,0 +1,236 @@
+$maincolor:#e84118;
+
+
+
+
+body{padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html{scroll-behavior: smooth}
+
+/*start navbar*/
+
+nav{font-family: 'Raleway', sans-serif;}
+
+
+nav .container .navbar-brand{animation: moving 4s infinite ease;} 
+
+
+@keyframes moving{
+    0%{}
+    25%{transform:translateX(50px) rotateY(180deg);letter-spacing:10px}
+    50%{transform:translateX(150px) rotatex(360deg);letter-spacing:25px}
+    100%{transform: scale(1.5);letter-spacing:5px}
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{transition: all .5s ease;color:black}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{color: #00a8ff}
+
+nav .container .collapse form button{   border-top-left-radius: 13px;
+                                        border-bottom-left-radius: 13px;
+                                        border-bottom-right-radius: 13px;
+                                        box-shadow: 0 0 1px 2px #dcdde1}
+
+/*end navbar*/
+
+/*start home*/
+.home .container .row .my-home h1{font-size: 60px}
+
+.home .container .row .my-home div button{  border-top-left-radius: 18px;
+                                            border-bottom-left-radius: 18px;
+                                            border-bottom-right-radius: 18px;
+                                            box-shadow: 0 0 1px 2px #dcdde1;
+                                            transition: all 1s ease;
+                                            color:#0d6efd}
+
+.home .container .row .my-home div:hover button{transform: scale(1.5) translateX(-30px);
+                                                box-shadow: 0px 0px 3px 5px #718093;
+                                                color:black}
+
+
+.home .container .row .my-home div a{transition: all 1s ease}
+
+.home .container .row .my-home div:hover a{ transform: scale(1.5) translateX(30px);
+                                            background:black;background-size: contain}
+
+.home .container .row .my-home img{     border-top-left-radius: 20%;
+                                        border-bottom-left-radius: 20%;
+                                        border-bottom-right-radius: 20%;}
+
+
+
+/*end home*/
+
+/*start details*/
+
+.details{background:#f5f6fa;
+        height:auto}
+
+.details .container .row{background: white;
+                        border-radius: 80px;
+                        height:auto}
+
+.details .container .row div:last-of-type button{   padding:10px 60px;
+                                                    border-radius: 20px}
+
+.details div select{padding-right: 130px;
+                    border: none;
+                    padding-left:5px;
+                    font-size: 22px}
+
+.details div input{ border: none;
+                    font-size: 22px;
+                    outline: none}
+/*end details*/
+
+/*start about-us*/
+.about-us{background: #dcdde1}
+
+.about-us .container .row div:first-of-type img{border-top-left-radius: 100px;
+                                                border-bottom-right-radius: 100px;}
+
+.about-us .container .row div:last-of-type h1{font-size: 60px}
+
+.about-us .container .row div:last-of-type div button { border-radius: 20px;
+                                                        padding:10px 30px;
+                                                        box-shadow: 0px 0px 20px 5px #0097e6}
+
+.about-us .container .row div:last-of-type div a{ box-shadow: 0px 0px 10px 2px #0097e6}
+
+/*end about-us*/
+
+/*start-items*/
+.items .container .row div{ box-shadow: 0px 0px 3px 8px #dcdde1;
+                            border-top-left-radius: 20px;
+                            border-bottom-right-radius: 20px;
+                            flex-basis:  370px}
+
+.items .container .row div i{   background: #dcdde1;
+                                color: #00a8ff;
+                                padding:20px;
+                                margin-top:10px}
+/*end-items*/
+
+/*start work*/
+
+.work{  background: linear-gradient(to right, #70e1f5, #ffd194);
+        border-top-left-radius: 200px;
+        border-bottom-right-radius: 200px;} 
+
+
+.work .container .row div{  transition: all 1s ease;
+                            flex-basis:  370px}
+
+
+.work .container .row div:hover{box-shadow: 0px 0px 3px 8px #dcdde1;
+                            border-top-left-radius: 20px;
+                            border-bottom-right-radius: 20px;}
+
+.work .container .row div i{  background: #dcdde1;
+                                color: $maincolor;
+                                padding:20px;
+                                margin-top:10px}
+/*end work*/
+
+/*start recent*/
+.recent .container .row .unit img{  width:100%;
+                                    height:100%;
+                                    border-top-left-radius: 80px;
+                                    border-bottom-right-radius: 80px;
+                                    transition: all 1s ease;}
+
+.recent .container .row .unit{  transition: all 1s ease;margin-bottom: 20px;                                    
+                                border-top-left-radius: 80px;
+                                border-bottom-right-radius: 80px;}
+
+.recent .container .row .unit:hover{ background:rgba(232 130 130 / 67%);
+                                    transform: scale(.9);
+                                    box-shadow: 0px 0px 3px 8px #dcdde1;}
+
+.recent .container button{  padding:10px 60px;
+                            border-radius: 20px;
+                            box-shadow: 0px 0px 15px 4px $maincolor}
+ 
+/*end recent*/
+
+/*start testimonials*/
+.carousel{  position: relative;
+            background:linear-gradient(to right, #70e1f5, #ffd194);
+            border-top-left-radius: 200px;
+            border-top-right-radius: 200px;}
+
+.carousel .carousel-indicators{ position: absolute;
+                                top:93%}
+
+
+.carousel .carousel-inner .carousel-item{text-align: center}
+
+.carousel .carousel-inner .carousel-item img{   position: static;
+                                                width:15%;
+                                                transition: all 1s ease;
+                                                background:linear-gradient(to right, #70e1f5, #ffd194) }
+
+.carousel .carousel-inner .carousel-item img:hover{ transform: scale(1.1);
+                                                    box-shadow: 0px 0px 3px 7px #7f8fa6;}
+
+.carousel .carousel-inner .carousel-item .carousel-caption{position: static}
+
+.carousel-indicators [data-bs-target]{  height:8px;
+                                        background:rgba(174 41 41 / 73%);
+                                        transition: all .5s ease}
+
+.carousel-indicators .active{border: 1px solid black;}
+/*end testimonials*/
+
+/*start question*/
+
+.question .container div{box-shadow: 0px 0px 15px 5px #f5f6fa;
+                        border-radius: 80px;
+                        width: 500px;
+                        margin: auto;
+                        padding: 15px 15px}
+
+.question .container div input{ height:45px;
+                                border:none;
+                                outline: none}
+
+.question .container div button{border-radius: 20px;
+                                padding: 10px 25px}
+/*end question*/
+
+/*start footer*/
+
+.footer {background:linear-gradient(to right, #70e1f5, #ffd194);
+        padding:30px 0;
+        border-top-left-radius: 180px;
+        border-bottom-right-radius: 180px;
+        border-bottom-left-radius: 180px; 
+        overflow: hidden}
+
+.footer .container .row .unit:nth-of-type(2){padding: 0 20px}
+
+/*end footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

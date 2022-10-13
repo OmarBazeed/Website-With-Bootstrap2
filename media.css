@@ -1,0 +1,44 @@
+@media (min-width:992px) and (max-width:1200px){
+    
+    .details div select{padding-right: 55px;}
+    
+    .items .container .row div{flex-basis: 290px}
+    
+    .items .container .row div h2{  font-size: 25px;
+                                    padding-top: 15px;}
+    
+    .items .container .row div p{font-size: 20px}  
+    
+    .work .container .row div{flex-basis: 300px}
+    
+
+
+.home .container .row .my-home div:hover button{transform: scale(1.2) translateX(30px);}
+
+.home .container .row .my-home div:hover a{ transform: scale(1.2) translateX(40px);}
+}
+
+@media (max-width:800px){
+    
+.home .container .row .my-home div:hover button{transform: scale(1.2) translateX(30px);}
+
+.home .container .row .my-home div:hover a{ transform: scale(1.2) translateX(40px);}
+
+}
+
+@media (max-width:573px){
+    
+    .carousel-indicators [data-bs-target]{display: none}
+    
+    .carousel .carousel-inner .carousel-item .carousel-caption p{font-size: 15px}
+    
+    .question .container div{width: 300px}
+    
+    .work .container .row div{flex-basis: 345px;}
+    
+    .details .container .row{margin: 0}
+    
+    .details div select{ padding-right: 65px;}
+    
+    .footer .container .row div:nth-of-type(3) ul , .footer .container .row div:last-of-type ul {text-align: center}
+}
